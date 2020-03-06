@@ -17,7 +17,7 @@ SECRET_KEY = '\2\1thisismyscretkey\1\2\e\y\y\h'
 # superset metadata (slices, connections, tables, dashboards, ...).
 # Note that the connection information to connect to the datasources
 # you want to explore are managed directly in the web UI
-SQLALCHEMY_DATABASE_URI = 'sqlite:////path/to/superset.db'
+# SQLALCHEMY_DATABASE_URI = 'sqlite:////path/to/superset.db'
 
 # Flask-WTF flag for CSRF
 WTF_CSRF_ENABLED = True
@@ -27,4 +27,4 @@ WTF_CSRF_EXEMPT_LIST = []
 WTF_CSRF_TIME_LIMIT = 60 * 60 * 24 * 365
 
 # Set this API key to enable Mapbox visualizations
-MAPBOX_API_KEY = ''
+MAPBOX_API_KEY = 'pk.eyJ1IjoicGF0dGFuYWFkYXB0ZXIiLCJhIjoiY2s3ZnI1aTZ0MDV1cDN0dDZtaGZqOHBseCJ9.Ojk_i5zlNhm2k0QpCRmfgw'
